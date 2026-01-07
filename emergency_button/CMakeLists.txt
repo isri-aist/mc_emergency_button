@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.21)
 
 add_library(emergency_button_usbio SHARED src/usbio.c src/usbio.h src/usbio_private.h)
 target_link_libraries(emergency_button_usbio PUBLIC usb)
